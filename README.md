@@ -111,7 +111,8 @@ ___________________________________
 
 Design patterns used: 
 
-Singleton - parking manager is a singleton class
+Singleton Pattern - Parking Manager is a singleton class
+
 Strategy - pluggable strategies for finding parking spot, and calculating fee.
 
 
