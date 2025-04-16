@@ -2,7 +2,7 @@ package org.parkingManagement;
 
 public class ParkingSpot {
 
-    int spotId;
+    private int spotId;
     private SpotStatus spotStatus;
     private VehicleType vehicleType;
 
@@ -12,6 +12,13 @@ public class ParkingSpot {
         this.vehicleType = type;
     }
 
+    public int getSpotId() {
+        return spotId;
+    }
+
+    public void setSpotId(int spotId) {
+        this.spotId = spotId;
+    }
     public SpotStatus getSpotStatus() {
         return spotStatus;
     }

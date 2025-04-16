@@ -5,7 +5,9 @@ import java.util.List;
 
 public class ParkingLevel {
 
-    int levelNumber;
+
+
+    private int levelNumber;
     List<ParkingSpot> spots;
     int capacity;
 
@@ -13,6 +15,14 @@ public class ParkingLevel {
         this.levelNumber = levelNumber;
         this.capacity = capacity;
         spots = new ArrayList<>();
+    }
+
+    public int getLevelNumber() {
+        return levelNumber;
+    }
+
+    public void setLevelNumber(int levelNumber) {
+        this.levelNumber = levelNumber;
     }
 
     boolean addSpot(ParkingSpot p){
